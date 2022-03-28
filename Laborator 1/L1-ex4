@@ -1,0 +1,5 @@
+[grep #2]
+Să se scrie comanda care afișează informațiile asociate tuturor utilizatorilor care sunt membri ai grupului root.
+
+	grep "root" /etc/passwd
+

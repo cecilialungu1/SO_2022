@@ -1,0 +1,7 @@
+[cut #2]
+Să se scrie comanda care afișează numele și GID-urile tuturor grupurilor de utilizatori ai sistemului.
+Cerință suplimentară: înlocuiți ":" cu " - " în rezultatele afișate de comandă.
+
+	cut -f 1,3 -d: /etc/group
+	cut -f 1,3 -d- /etc/group
+
